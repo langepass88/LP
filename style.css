@@ -40,8 +40,10 @@
     src: url("fonts/Raleway-Regular.ttf");
 }
 
-body {
+html, body {
     margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 a {
@@ -66,14 +68,14 @@ a {
 
 .socialIcons {
     position: absolute;
-    right: 55px;
-    top: 50px;
+    right: 56px;
+    top: 49px;
 
 }
 
 .fab {
     color: white;
-    margin-right: 10px;
+    margin-right: 9px;
     text-shadow: 1px 1px 1px #000;
     transition: all 0.3s ease;
 }
@@ -101,49 +103,54 @@ a {
 .headerTextBlock > h1 {
     font-family: "Raleway Bold", sans-serif;
     font-size: 30px;
-    line-height: 24px;
-    margin-top: 82px;
+    line-height: 29px;
+    margin-top: 80px;
     text-transform: uppercase;
+    margin-bottom: 22px;
 }
 
 .headerTextBlock > p {
     font-family: "Raleway Bold Italic", sans-serif;
     font-size: 18px;
-    line-height: 18px;
+    line-height: 14px;
     font-style: italic;
+    margin: 1px 0 -1px -3px;
+    letter-spacing: 0.29px;
 }
 
 .headerHeadText {
     width: 313px;
     color: #FF7400;
     position: absolute;
-    right: 128px;
-    top: 237px;
+    right: 107px;
+    top: 239px;
 
 }
 
 .headerHeadText > h2 {
-    font-size: 48px;
+    font-size: 46px;
     font-family: "Raleway Bold", sans-serif;
     font-weight: 700;
-    line-height: 34px;
+    line-height: 38px;
+    letter-spacing: 0.3px;
     margin: 0;
     text-shadow: 3px 3px 3px #000;
 }
 
 .headerHeadText > p {
     font-family: "Raleway Regular", sans-serif;
-    font-size: 18px;
+    font-size: 17px;
+    letter-spacing: 0.4px;
     font-weight: 400;
-    line-height: 24px;
-    margin-top: 5px;
-    margin-bottom: 62px;
+    line-height: 23px;
+    margin-top: 3px;
+    margin-bottom: 63px;
     text-shadow: 1.5px 1.5px 1.5px #000;
 }
 
 .headerHeadText > a {
     background-color: #FF7400;
-    padding: 19px 28px;
+    padding: 18px 30px 15px 27px;
     display: inline-block;
     font-family: "Raleway Black", sans-serif;
     text-decoration: none;
@@ -181,9 +188,9 @@ a {
 .contentInsideLeft .menu {
     background-color: #333333;
     text-transform: uppercase;
-    padding-left: 40px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-left: 41px;
+    padding-bottom: 21px;
+    padding-top: 29px;
     color: #ffffff;
     font-size: 14px;
     font-weight: 500;
@@ -193,6 +200,7 @@ a {
 .contentInsideLeft .contentMenu {
     list-style-type: none;
     padding: 0;
+    padding-bottom: 14px;
     margin: 0;
 }
 
@@ -203,9 +211,9 @@ a {
 
 .contentInsideLeft .contentMenu li a {
     color: #000000;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 900;
-    padding: 10px 0 10px 40px;
+    padding: 17px 0 4px 39px;
     text-transform: uppercase;
     font-family: "Roboto Black", sans-serif;
     transition: all 0.3s ease;
@@ -231,13 +239,15 @@ a {
 .downBlockText {
     font-family: "Raleway Black", sans-serif;
     color: #FF7400;
-    font-size: 36px;
+    font-size: 34px;
+    line-height: 37px;
     font-weight: 800;
     font-style: italic;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
     position: relative;
-    top: 129px;
-    left: 120px;
+    top: 123px;
+    left: 139px;
     text-shadow: 2px 2px 2px #000;
 }
 
@@ -255,11 +265,12 @@ a {
 .topProductsHeader,
 .saleProductsHeader {
     color: #707070;
-    font-size: 22px;
+    font-weight: 700;
+    font-size: 19px;
     font-style: italic;
-    padding: 30px 0 30px 25px;
+    padding: 30px 0 10px 25px;
     background: #FF9D40;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
 
 .topProductsHeader,
@@ -267,9 +278,14 @@ a {
     clear: both;
 }
 
+.ProductsCatalog {
+    float: left;
+    margin-bottom: 15px;
+}
+
 .ProductsCatalogUnit {
     width: 250px;
-    height: 270px;
+    height: 300px;
     float: left;
     background-color: #fff;
     margin-right: 30px;
@@ -298,7 +314,7 @@ a {
 }
 
 .image {
-    height: 70%;
+    height: 220px;
 }
 
 .ProductsCatalog .Unit1 {
@@ -350,12 +366,17 @@ a {
 }
 
 .ProductsCatalog .infoUnit {
-    padding: 5% 0 0 5%;
+    padding: 32px 22px 0 20px;
+    width: auto;
+    height: 80px;
+    box-sizing: border-box;
 }
 
 .unitName {
     color: #333333;
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.28px;
     font-weight: 900;
     font-family: "Roboto Black Italic", sans-serif;
     font-style: italic;
@@ -377,7 +398,7 @@ a {
 .unitPrice {
     float: right;
     color: #333333;
-    font-size: 18px;
+    font-size: 17px;
     font-family: "Roboto Black Italic", sans-serif;
     font-weight: 900;
     font-style: italic;
